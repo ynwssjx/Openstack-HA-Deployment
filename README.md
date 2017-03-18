@@ -1,10 +1,10 @@
 # Openstack-HA-Deployment
 
-This Project was based on the book 《Openstack HA and Operation》，before reading this project codes，we suggest to read the book firstly，so you can understand the theory of Height Availability Openstack cluster.
+This Project was based on the book《Openstack HA and Operation》，before reading this project codes，we suggest to read the book firstly，so you can understand the theory of Height Availability Openstack cluster.
 
-Environment
-1.Linux System：Centos71 or Centsos72 
-2.Openstack:Kilo(RDO)
+##Environment<br>
+1.Linux system：centos71 or centos72<br>
+2.Openstack release:kill(RDO)<br>
 
 Introduction of Project 
 This Project implement Openstack HA deployment based on Pacemaker and HAProxy.To implement Openstack HA production environment，we overcover all components that relative with openstack，including low-level infrastructure components，such as 
