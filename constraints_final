@@ -1,0 +1,334 @@
+Location Constraints:
+  Resource: ceilometer-alarm-evaluator-clone
+    Constraint: location-ceilometer-alarm-evaluator-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-alarm-notifier-clone
+    Constraint: location-ceilometer-alarm-notifier-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-api-clone
+    Constraint: location-ceilometer-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-central-clone
+    Constraint: location-ceilometer-central-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-collector-clone
+    Constraint: location-ceilometer-collector-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-compute-clone
+    Constraint: location-ceilometer-compute-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq compute
+  Resource: ceilometer-delay-clone
+    Constraint: location-ceilometer-delay-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: ceilometer-notification-clone
+    Constraint: location-ceilometer-notification-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: cinder-api-clone
+    Constraint: location-cinder-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: cinder-scheduler-clone
+    Constraint: location-cinder-scheduler-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: cinder-volume
+    Constraint: location-cinder-volume (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: galera-master
+    Constraint: location-galera-master (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: glance-api-clone
+    Constraint: location-glance-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: glance-fs-clone
+    Constraint: location-glance-fs-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: glance-registry-clone
+    Constraint: location-glance-registry-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: heat-api-cfn-clone
+    Constraint: location-heat-api-cfn-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: heat-api-clone
+    Constraint: location-heat-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: heat-api-cloudwatch-clone
+    Constraint: location-heat-api-cloudwatch-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: heat-engine-clone
+    Constraint: location-heat-engine-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: horizon-clone
+    Constraint: location-horizon-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: keystone-clone
+    Constraint: location-keystone-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: lb-haproxy-clone
+    Constraint: location-lb-haproxy-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: libvirtd-compute-clone
+    Constraint: location-libvirtd-compute-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq compute
+  Resource: memcached-clone
+    Constraint: location-memcached-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: mongodb-clone
+    Constraint: location-mongodb-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-dhcp-agent-clone
+    Constraint: location-neutron-dhcp-agent-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-l3-agent-clone
+    Constraint: location-neutron-l3-agent-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-metadata-agent-clone
+    Constraint: location-neutron-metadata-agent-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-netns-cleanup-clone
+    Constraint: location-neutron-netns-cleanup-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-openvswitch-agent-clone
+    Constraint: location-neutron-openvswitch-agent-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-openvswitch-agent-compute-clone
+    Constraint: location-neutron-openvswitch-agent-compute-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq compute
+  Resource: neutron-ovs-cleanup-clone
+    Constraint: location-neutron-ovs-cleanup-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: neutron-server-api-clone
+    Constraint: location-neutron-server-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-api-clone
+    Constraint: location-nova-api-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-cert-clone
+    Constraint: location-nova-cert-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-compute-clone
+    Constraint: location-nova-compute-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq compute
+  Resource: nova-compute-fs-clone
+    Constraint: location-nova-compute-fs-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq compute
+  Resource: nova-conductor-clone
+    Constraint: location-nova-conductor-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-consoleauth-clone
+    Constraint: location-nova-consoleauth-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-evacuate
+    Constraint: location-nova-evacuate (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-novncproxy-clone
+    Constraint: location-nova-novncproxy-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: nova-scheduler-clone
+    Constraint: location-nova-scheduler-clone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: rabbitmq-cluster-master
+    Constraint: location-rabbitmq-cluster-master (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: redis-server-master
+    Constraint: location-redis-server-master (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-ceilometer
+    Constraint: location-vip-ceilometer (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-cinder
+    Constraint: location-vip-cinder (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-db
+    Constraint: location-vip-db (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-glance
+    Constraint: location-vip-glance (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-heat
+    Constraint: location-vip-heat (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-horizon
+    Constraint: location-vip-horizon (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-keystone
+    Constraint: location-vip-keystone (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-neutron
+    Constraint: location-vip-neutron (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-nova
+    Constraint: location-vip-nova (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-qpid
+    Constraint: location-vip-qpid (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-rabbitmq
+    Constraint: location-vip-rabbitmq (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-redis
+    Constraint: location-vip-redis (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+  Resource: vip-swift
+    Constraint: location-vip-swift (resource-discovery=exclusive)
+      Rule: score=0
+        Expression: node_role eq controller
+Ordering Constraints:
+  start vip-db then start lb-haproxy-clone (kind:Optional)
+  start vip-rabbitmq then start lb-haproxy-clone (kind:Optional)
+  start vip-keystone then start lb-haproxy-clone (kind:Optional)
+  start vip-glance then start lb-haproxy-clone (kind:Optional)
+  start vip-cinder then start lb-haproxy-clone (kind:Optional)
+  start vip-swift then start lb-haproxy-clone (kind:Optional)
+  start vip-neutron then start lb-haproxy-clone (kind:Optional)
+  start vip-nova then start lb-haproxy-clone (kind:Optional)
+  start vip-horizon then start lb-haproxy-clone (kind:Optional)
+  start vip-heat then start lb-haproxy-clone (kind:Optional)
+  start vip-ceilometer then start lb-haproxy-clone (kind:Optional)
+  start vip-qpid then start lb-haproxy-clone (kind:Optional)
+  start lb-haproxy-clone then start galera-master (kind:Mandatory)
+  start glance-fs-clone then start glance-registry-clone (kind:Mandatory)
+  start glance-registry-clone then start glance-api-clone (kind:Mandatory)
+  start cinder-api-clone then start cinder-scheduler-clone (kind:Mandatory)
+  start cinder-scheduler-clone then start cinder-volume (kind:Mandatory)
+  start neutron-server-api-clone then start neutron-ovs-cleanup-clone (kind:Mandatory)
+  start neutron-ovs-cleanup-clone then start neutron-netns-cleanup-clone (kind:Mandatory)
+  start neutron-netns-cleanup-clone then start neutron-openvswitch-agent-clone (kind:Mandatory)
+  start neutron-openvswitch-agent-clone then start neutron-dhcp-agent-clone (kind:Mandatory)
+  start neutron-dhcp-agent-clone then start neutron-l3-agent-clone (kind:Mandatory)
+  start neutron-l3-agent-clone then start neutron-metadata-agent-clone (kind:Mandatory)
+  start keystone-clone then start nova-consoleauth-clone (kind:Mandatory)
+  start nova-consoleauth-clone then start nova-novncproxy-clone (kind:Mandatory)
+  start nova-novncproxy-clone then start nova-api-clone (kind:Mandatory)
+  start nova-api-clone then start nova-scheduler-clone (kind:Mandatory)
+  start nova-scheduler-clone then start nova-conductor-clone (kind:Mandatory)
+  start nova-api-clone then start nova-cert-clone (kind:Mandatory)
+  promote redis-server-master then start vip-redis (kind:Mandatory)
+  start vip-redis then start ceilometer-central-clone (kind:Optional)
+  start ceilometer-central-clone then start ceilometer-collector-clone (kind:Mandatory)
+  start ceilometer-collector-clone then start ceilometer-api-clone (kind:Mandatory)
+  start ceilometer-api-clone then start ceilometer-delay-clone (kind:Mandatory)
+  start ceilometer-delay-clone then start ceilometer-alarm-evaluator-clone (kind:Mandatory)
+  start ceilometer-alarm-evaluator-clone then start ceilometer-alarm-notifier-clone (kind:Mandatory)
+  start ceilometer-alarm-notifier-clone then start ceilometer-notification-clone (kind:Mandatory)
+  start mongodb-clone then start ceilometer-central-clone (kind:Mandatory)
+  start keystone-clone then start ceilometer-central-clone (kind:Mandatory)
+  start ceilometer-notification-clone then start heat-api-clone (kind:Mandatory)
+  start heat-api-clone then start heat-api-cfn-clone (kind:Mandatory)
+  start heat-api-cfn-clone then start heat-api-cloudwatch-clone (kind:Mandatory)
+  start heat-api-cloudwatch-clone then start heat-engine-clone (kind:Mandatory)
+  start vip-glance then start nova-evacuate (kind:Mandatory)
+  start vip-cinder then start nova-evacuate (kind:Mandatory)
+  start vip-neutron then start nova-evacuate (kind:Mandatory)
+  start vip-nova then start nova-evacuate (kind:Mandatory)
+  start vip-db then start nova-evacuate (kind:Mandatory)
+  start vip-rabbitmq then start nova-evacuate (kind:Mandatory)
+  start vip-keystone then start nova-evacuate (kind:Mandatory)
+  start cinder-volume then start nova-evacuate (kind:Mandatory)
+  start glance-api-clone then start nova-evacuate (kind:Mandatory) (Options: require-all=false)
+  start neutron-metadata-agent-clone then start nova-evacuate (kind:Mandatory) (Options: require-all=false)
+  start nova-conductor-clone then start nova-evacuate (kind:Mandatory) (Options: require-all=false)
+  start neutron-server-api-clone then start neutron-openvswitch-agent-compute-clone (kind:Mandatory) (Options: require-all=false)
+  start neutron-openvswitch-agent-compute-clone then start libvirtd-compute-clone (kind:Mandatory)
+  start ceilometer-notification-clone then start ceilometer-compute-clone (kind:Mandatory) (Options: require-all=false)
+  start libvirtd-compute-clone then start ceilometer-compute-clone (kind:Mandatory)
+  start ceilometer-compute-clone then start nova-compute-fs-clone (kind:Mandatory)
+  start nova-conductor-clone then start nova-compute-clone (kind:Mandatory) (Options: require-all=false)
+  start nova-compute-fs-clone then start nova-compute-clone (kind:Mandatory) (Options: require-all=false)
+  start libvirtd-compute-clone then start nova-compute-clone (kind:Mandatory) (Options: require-all=false)
+  start nova-compute-clone then start nova-evacuate (kind:Mandatory) (Options: require-all=false)
+Colocation Constraints:
+  vip-db with lb-haproxy-clone (score:INFINITY)
+  vip-rabbitmq with lb-haproxy-clone (score:INFINITY)
+  vip-keystone with lb-haproxy-clone (score:INFINITY)
+  vip-glance with lb-haproxy-clone (score:INFINITY)
+  vip-cinder with lb-haproxy-clone (score:INFINITY)
+  vip-swift with lb-haproxy-clone (score:INFINITY)
+  vip-neutron with lb-haproxy-clone (score:INFINITY)
+  vip-nova with lb-haproxy-clone (score:INFINITY)
+  vip-horizon with lb-haproxy-clone (score:INFINITY)
+  vip-heat with lb-haproxy-clone (score:INFINITY)
+  vip-ceilometer with lb-haproxy-clone (score:INFINITY)
+  vip-qpid with lb-haproxy-clone (score:INFINITY)
+  glance-registry-clone with glance-fs-clone (score:INFINITY)
+  glance-api-clone with glance-registry-clone (score:INFINITY)
+  cinder-scheduler-clone with cinder-api-clone (score:INFINITY)
+  cinder-volume with cinder-scheduler-clone (score:INFINITY)
+  neutron-netns-cleanup-clone with neutron-ovs-cleanup-clone (score:INFINITY)
+  neutron-openvswitch-agent-clone with neutron-netns-cleanup-clone (score:INFINITY)
+  neutron-dhcp-agent-clone with neutron-openvswitch-agent-clone (score:INFINITY)
+  neutron-l3-agent-clone with neutron-dhcp-agent-clone (score:INFINITY)
+  neutron-metadata-agent-clone with neutron-l3-agent-clone (score:INFINITY)
+  nova-novncproxy-clone with nova-consoleauth-clone (score:INFINITY)
+  nova-conductor-clone with nova-scheduler-clone (score:INFINITY)
+  nova-scheduler-clone with nova-api-clone (score:INFINITY)
+  nova-api-clone with nova-novncproxy-clone (score:INFINITY)
+  nova-cert-clone with nova-api-clone (score:INFINITY)
+  vip-redis with redis-server-master (score:INFINITY) (rsc-role:Started) (with-rsc-role:Master)
+  ceilometer-api-clone with ceilometer-collector-clone (score:INFINITY)
+  ceilometer-delay-clone with ceilometer-api-clone (score:INFINITY)
+  ceilometer-alarm-evaluator-clone with ceilometer-delay-clone (score:INFINITY)
+  ceilometer-alarm-notifier-clone with ceilometer-alarm-evaluator-clone (score:INFINITY)
+  ceilometer-notification-clone with ceilometer-alarm-notifier-clone (score:INFINITY)
+  heat-api-cfn-clone with heat-api-clone (score:INFINITY)
+  heat-api-cloudwatch-clone with heat-api-cfn-clone (score:INFINITY)
+  heat-engine-clone with heat-api-cloudwatch-clone (score:INFINITY)
+  libvirtd-compute-clone with neutron-openvswitch-agent-compute-clone (score:INFINITY)
+  ceilometer-compute-clone with libvirtd-compute-clone (score:INFINITY)
+  nova-compute-fs-clone with ceilometer-compute-clone (score:INFINITY)
+  nova-compute-clone with nova-compute-fs-clone (score:INFINITY)
+  nova-compute-clone with libvirtd-compute-clone (score:INFINITY)
