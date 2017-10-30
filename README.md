@@ -1,6 +1,6 @@
 # Openstack-HA-Deployment
 
-This Project was based on the book《Openstack HA and Operation》，before reading this project codes，we suggest to read the book firstly，so you can understand the theory of Height Availability Openstack cluster.
+This Project was based on the two books《Openstack Cluster HA:Deployment and Operation》and 《Openstack Cluster HA:Architecture and Principles》 published by Mechanical Industry Press，before reading this project codes，we suggest to read the books firstly，so you can understand the theory of Height Availability Openstack cluster.
 
 Environment<br>
 1.Linux system：centos71 or centos72<br>
