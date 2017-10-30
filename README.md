@@ -4,7 +4,7 @@ This Project was based on the book《Openstack HA and Operation》，before read
 
 Environment<br>
 1.Linux system：centos71 or centos72<br>
-2.Openstack release:kill(RDO)<br>
+2.Openstack release:kilo(RDO)<br>
 
 Introduction of Project<br> 
 This Project implement Openstack HA deployment based on Pacemaker and HAProxy.To implement Openstack HA production environment，we overcover all components that relative with openstack，including low-level infrastructure components，such as 
