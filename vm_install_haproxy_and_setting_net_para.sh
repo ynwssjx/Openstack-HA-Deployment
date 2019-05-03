@@ -33,7 +33,7 @@ sysctl net.ipv4.tcp_keepalive_time=5
 
 
 #install rsyslog so that it can log haproxy events
-yum instll -y rsyslog
+yum install -y rsyslog
 sed -i '/^\$ModLoad/d' /etc/rsyslog.conf
 sed -i '/^$UDPServerRun/d' /etc/rsyslog.conf
 sed -i '/^local0/d' /etc/rsyslog.conf
